@@ -7,6 +7,23 @@ public class Variables {
         /*
         I should use this to write multiple
         lines of code
-         */
+
+        System.out.println("Hello World");
+
+        if (1>2){
+            System.out.println("1 is greater than 2");
+        }else {
+            System.out.println("2is greater than 1");
+        }
+        boolean x = true;
+        boolean y = false;
+        if (x || y) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }*/
+        }
+
   }
-}
+
+
