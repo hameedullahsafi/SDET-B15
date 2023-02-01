@@ -1,0 +1,51 @@
+There are three types of Variables with respect to their scope
+  local variables:
+  if a variable is created inside a block of code like a method, loop, if condition etc.
+  if condition etc. they are called local variables.
+
+  Upside:
+  local variables occupy the memory for the shortest period of time you should always try to write code with the help of local
+  variables.
+
+  Downside:
+  they can't be assessed outside of the block in which they are created . they have very limited scope.
+
+  instance variables:
+         All the variables which are created inside a class but outside of methods are called instance variables
+   Upside:
+   we can use them in all the instance methods of that class. their scope is larger than local variables.
+    static variables:
+    Downside :
+    they stay longer in the memory as compared to local variables .
+     All the variables which are outside of methods and have the static keywoord are called static variables.
+
+upside:
+ Static variables  only occupy one memory location from the RAM even though we create 1000 objects of that
+ class
+  2>they can be used in any block of code inside the class they can be accessed in any methods of a class
+  3>they can also be accessed with the help of any object of that class. they have the most wide scope
+
+  Downside:
+    they are loaded int the memory when a class is loaded even though you don't use them
+
+    ================================================================
+
+    Access modifiers?
+     Access modifiers are some keywords in java that we can to control the access of
+     variables, methods and classes
+
+  there are 4 access leveals private, protected, default, public
+  and  there are 3 keywords that we use to control this access for example private protected and public
+  Private:
+   if we write private keyword with a bariable or a method or a class, we can assess that variable or method
+   or class within the same class.
+
+   default:
+    deafult is not a keyword. when we don't any access modifiers with variables or methods or classes
+    default access is applied automatically by java, which means these variable methods or classes can be
+    access inside any other class which is present inside the some package,
+
+ public:
+   public is a keyword , when writtent with any bariable or method or class it means any classin your project can access these things.
+
+

@@ -1,0 +1,53 @@
+Methods in Java:
+      is just a collection of java statements and blocks  of code like if else loop printlns etc.
+      Why should we learn about methods:
+      Binifite of Methods:
+     1> it Allows us to simplify large code as we can divide the logic into smaller parts by creating methods for them
+      build those methods one by one and later on combine them to build the complete application.
+      2> Methods allow us to re-use code.
+      3> Methods allow us to be flexible.
+   How can we create Methods?
+    There are two types built in and user defined .
+    1> built - in methods?
+    the methosd which are designed by java developers for example the println() nextInt() method in the Scanner
+    class length() present in String class they are all built-in methods.
+ User Defined Methods:
+   they methods that we write.
+  Methods which return something when called and others are methods which do not return anything when called
+
+  int add ( int a, int b){
+  return a+b;
+  }
+  int => is called return type of a method
+  add=> it is called name of the method
+  (int a,int b) is called parameters of the method or the input to the method
+  { is called  body of the method
+  }
+
+  Rules:
+  return type and the values that we are returning from a method should match
+
+  we can only assign method to variables of same type.
+  =============================================================
+  There are three types of Variables with respect to their scope
+  local variables:
+  if a variable is created inside a block of code like a method, loop, if condition etc.
+  if condition etc. they are called local variables.
+
+  Upside:
+  local variables occupy the memory for the shortest period of time you should always try to write code with the help of local
+  variables.
+
+  Downside:
+  they can't be assessed outside of the block in which they are created . they have very limited scope.
+
+  instance variables:
+         All the variables which are created inside a class but outside of methods are called instance variables
+   Upside:
+   we can use them in all the instance methods of that class. their scope is larger than local variables.
+    static variables:
+    Downside :
+    they stay longer in the memory as compared to local variables .
+     All the variables which are outside of methods and have the static keywoord are called static variables.
+
+
